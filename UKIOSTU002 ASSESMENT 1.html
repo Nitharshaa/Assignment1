@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My School Photography Club</title>
+</head>
+
+<body>
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1>Welcome to Our School Photography Club</h1>
+      <p class="lead">Capturing memories, one photo at a time!</p>
+    </div>
+  </header>
+
+  <nav id="navigation" class="bg-light py-3">
+    <div class="container">
+      <h3>Navigation (Table of Contents)</h3>
+      <ul class="nav flex-column flex-md-row">
+        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#members">Club Members</a></li>
+        <li class="nav-item"><a class="nav-link" href="#equipment">Equipment List</a></li>
+        <li class="nav-item"><a class="nav-link" href="#events">Upcoming Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="#join-form">Join Our Club</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resources">Useful Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container my-4">
+    <section id="about" class="mb-5">
+      <h2>About Our Photography Club</h2>
+      <p>Our photography club meets every Friday after school. We welcome students of all skill levels!</p>
+      <h3>What We Do:</h3>
+      <ul class="list-group list-group-flush mb-3">
+        <li class="list-group-item">Weekly photo walks around campus</li>
+        <li class="list-group-item">Photography technique workshops</li>
+        <li class="list-group-item">Photo editing sessions</li>
+        <li class="list-group-item">Monthly photo competitions</li>
+        <li class="list-group-item">Guest speaker presentations</li>
+      </ul>
+      <h3>How to Improve Your Photography:</h3>
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item">Learn the rule of thirds</li>
+        <li class="list-group-item">Practice taking photos daily</li>
+        <li class="list-group-item">Study lighting conditions</li>
+        <li class="list-group-item">Experiment with different angles</li>
+        <li class="list-group-item">Edit your photos thoughtfully</li>
+        <li class="list-group-item">Share your work for feedback</li>
+      </ol>
+    </section>
+
+    <section id="members" class="mb-5">
+      <h2>Club Members & Roles</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th>Name</th>
+              <th>Grade</th>
+              <th>Role</th>
+              <th>Favorite Photography Style</th>
+              <th>Years in Club</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Sarah Johnson</td><td>12th</td><td>Club President</td><td>Portrait Photography</td><td>3</td></tr>
+            <tr><td>Mike Chen</td><td>11th</td><td>Equipment Manager</td><td>Nature Photography</td><td>2</td></tr>
+            <tr><td>Emma Rodriguez</td><td>10th</td><td>Event Coordinator</td><td>Street Photography</td><td>1</td></tr>
+            <tr><td>David Kim</td><td>9th</td><td>Social Media Manager</td><td>Macro Photography</td><td>1</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="equipment" class="mb-5">
+      <h2>Available Equipment</h2>
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead class="table-light">
+            <tr>
+              <th>Equipment</th>
+              <th>Brand/Model</th>
+              <th>Quantity</th>
+              <th>Condition</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>DSLR Camera</td><td>Canon EOS Rebel T7</td><td>5</td><td>Excellent</td></tr>
+            <tr><td>Tripod</td><td>Manfrotto Compact</td><td>8</td><td>Good</td></tr>
+            <tr><td>Flash Unit</td><td>Canon Speedlite</td><td>3</td><td>Good</td></tr>
+            <tr><td>Memory Cards</td><td>SanDisk 64GB</td><td>15</td><td>Excellent</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="events" class="mb-5">
+      <h2>Upcoming Events</h2>
+      <ul class="list-group mb-3">
+        <li class="list-group-item">
+          <strong>October Events</strong>
+          <ul>
+            <li>Oct 5: Autumn Photo Walk</li>
+            <li>Oct 12: Portrait Workshop</li>
+            <li>Oct 19: Guest Speaker</li>
+            <li>Oct 26: Monthly Competition Judging</li>
+          </ul>
+        </li>
+        <li class="list-group-item">
+          <strong>November Events</strong>
+          <ul>
+            <li>Nov 2: B&W Photography Workshop</li>
+            <li>Nov 9: Equipment Maintenance Day</li>
+            <li>Nov 16: Photo Editing Marathon</li>
+            <li>Nov 23: Thanksgiving Break - No Meeting</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="join-form" class="mb-5">
+      <h2>Join Our Photography Club</h2>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="student-name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="student-name" required>
+        </div>
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="col-md-4">
+          <label for="grade" class="form-label">Grade Level</label>
+          <select class="form-select" id="grade" required>
+            <option value="">Choose...</option>
+            <option>9th Grade</option>
+            <option>10th Grade</option>
+            <option>11th Grade</option>
+            <option>12th Grade</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="experience" class="form-label">Photography Experience</label>
+          <select class="form-select" id="experience">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label class="form-label d-block">Do you own a camera?</label>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="camera-yes" name="camera" value="yes">
+            <label class="form-check-label" for="camera-yes">Yes</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="camera-no" name="camera" value="no">
+            <label class="form-check-label" for="camera-no">No</label>
+          </div>
+        </div>
+        <div class="col-12">
+          <label class="form-label">Photography Interests:</label><br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="portrait" value="portrait">
+            <label class="form-check-label" for="portrait">Portrait</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="landscape" value="landscape">
+            <label class="form-check-label" for="landscape">Landscape</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="sports" value="sports">
+            <label class="form-check-label" for="sports">Sports</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="macro" value="macro">
+            <label class="form-check-label" for="macro">Macro</label>
+          </div>
+        </div>
+        <div class="col-12">
+          <label for="why-join" class="form-label">Why do you want to join?</label>
+          <textarea class="form-control" id="why-join" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit Application</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="resources" class="mb-5">
+      <h2>Useful Photography Resources</h2>
+      <h3>Educational Websites:</h3>
+      <ul>
+        <li><a href="https://www.digitalcameraworld.com/tutorials" target="_blank">Digital Camera World</a></li>
+        <li><a href="https://petapixel.com" target="_blank">PetaPixel</a></li>
+        <li><a href="https://www.youtube.com/channel/UC7T8roVtC_3afWKTOGtLlBA" target="_blank">Seen Tucker YouTube</a></li>
+      </ul>
+      <h3>Free Photo Editing Software:</h3>
+      <ul>
+        <li><a href="https://www.gimp.org" target="_blank">GIMP</a></li>
+        <li><a href="https://www.canva.com" target="_blank">Canva</a></li>
+      </ul>
+      <h3>Internal Navigation Links:</h3>
+      <ul>
+        <li><a href="#navigation">Back to Top Navigation</a></li>
+        <li><a href="#about">About Section</a></li>
+        <li><a href="#members">Member Information</a></li>
+        <li><a href="#join-form">Membership Form</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2025 School Photography Club. All rights reserved.</p>
+    <p>Contact us: <a class="text-info" href="mailto:photoclub@school.edu">photoclub@school.edu</a></p>
+  </footer>
+</body>
+
+</html>
